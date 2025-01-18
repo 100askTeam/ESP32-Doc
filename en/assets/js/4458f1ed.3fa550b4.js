@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8868],{7488:e=>{e.exports=JSON.parse('{"title":"Arduino","description":" ","slug":"/category/arduino","permalink":"/en/category/arduino","navigation":{"next":{"title":"ESP32\u7b80\u4ecb","permalink":"/en/DShanMCU-Mio/Arduino/chapter1-1"}}}')}}]);
