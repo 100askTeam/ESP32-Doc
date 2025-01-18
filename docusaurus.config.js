@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DshanPI',
-  tagline: 'eLinux TinaSDK5 Development.',
+  title: 'ESP32',
+  tagline: 'esp32-Docs',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://tina5.100ask.net',
+  url: 'https://esp32.100ask.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: '100askTeam', // Usually your GitHub org/user name.
-  projectName: 'eLinuxTina5-TrainingDocs', // Usually your repo name.
+  projectName: 'esp32-Docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -53,14 +53,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/100askTeam/eLinuxTina5-TrainingDocs/tree/main/',
+            'https://github.com/100askTeam/esp32-Doc/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/100askTeam/eLinuxTina5-TrainingDocs/tree/main/',
+            'https://github.com/100askTeam/esp32-Doc/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -75,9 +75,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'TinaSDK5',
+        title: 'ESP32-S3',
         logo: {
-          alt: 'DshanPI',
+          alt: 'ESP32-S3',
           src: 'img/logo.svg',
         },
         items: [
@@ -85,32 +85,20 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'boardquickstartSidebar',
             position: 'left',
-            label: '学习板使用',
+            label: 'DshanMCU-Mio(澪)',
           }, 
           {
             type: 'docSidebar',
             sidebarId: 'classpartoneSidebar',
             position: 'left',
-            label: '第一期课程 ',
-          }, 
-          {
-            type: 'docSidebar',
-            sidebarId: 'classparttwoSidebar',
-            position: 'left',
-            label: '第二期课程',
-          }, 
-          {
-            type: 'docSidebar',
-            sidebarId: 'classpartthreeSidebar',
-            position: 'left',
-            label: '第三期课程',
-          },                                          
+            label: '开源掌机 ',
+          },                                         
           {
             type: 'localeDropdown',
             position: 'right',
           },
           {
-            href: 'https://github.com/100askTeam/eLinuxTina5-TrainingDocs',
+            href: 'https://github.com/100askTeam/ESP32-Doc',
             label: 'GitHub',
             position: 'right',
           },
